@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Памятка адвоката | УАК Сан-Андреас</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --accent: #e74c3c;
+            --light: #ecf0f1;
+            --dark: #2c3e50;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background-color: var(--light);
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        
+        .subtitle {
+            font-weight: 300;
+            opacity: 0.9;
+        }
+        
+        .search-box {
+            margin: 2rem auto;
+            max-width: 600px;
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 30px;
+            font-size: 1rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .chapter-card {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .chapter-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .chapter-title {
+            color: var(--secondary);
+            border-bottom: 2px solid var(--light);
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+        
+        .article {
+            margin: 1.5rem 0;
+        }
+        
+        .article-title {
+            font-weight: 600;
+            color: var(--primary);
+        }
+        
+        .defense-strategy {
+            background: #f8f9fa;
+            border-left: 4px solid var(--secondary);
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 0 4px 4px 0;
+        }
+        
+        .strategy-step {
+            margin-bottom: 0.5rem;
+            position: relative;
+            padding-left: 1.5rem;
+        }
+        
+        .strategy-step:before {
+            content: "•";
+            color: var(--accent);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        
+        .arguments {
+            background: #e8f4fc;
+            padding: 1rem;
+            border-radius: 4px;
+            margin-top: 1rem;
+        }
+        
+        .argument {
+            font-style: italic;
+            color: var(--dark);
+            margin: 0.5rem 0;
+        }
+        
+        footer {
+            background: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Адвокатская памятка</h1>
+            <p class="subtitle">Полное руководство по защите по Уголовно-Административному Кодексу Сан-Андреас</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="search-box">
+            <input type="text" placeholder="Поиск по статьям УАК...">
+        </div>
+        
+        <div class="chapter-card">
+            <h2 class="chapter-title">Глава 6. Преступления против жизни и здоровья</h2>
+            
+            <div class="article">
+                <h3 class="article-title">Ст. 6.1 (Побои)</h3>
+                <div class="defense-strategy">
+                    <div class="strategy-step">Требовать медицинское заключение о степени повреждений</div>
+                    <div class="strategy-step">Проверять наличие видеофиксации инцидента</div>
+                    <div class="strategy-step">Устанавливать характер конфликта (взаимность)</div>
+                    
+                    <div class="arguments">
+                        <div class="argument">"Нет доказательств умысла на причинение вреда"</div>
+                        <div class="argument">"Действия подпадают под необходимую оборону (ст. 3.1 УАК)"</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="article">
+                <h3 class="article-title">Ст. 6.3 (Убийство)</h3>
+                <div class="defense-strategy">
+                    <div class="strategy-step">Оспаривать доказательства умысла</div>
+                    <div class="strategy-step">Проверять алиби клиента</div>
+                    <div class="strategy-step">Искать признаки необходимой обороны</div>
+                    
+                    <div class="arguments">
+                        <div class="argument">"Нет доказательств спланированности действий"</div>
+                        <div class="argument">"Клиент действовал в состоянии аффекта"</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="chapter-card">
+            <h2 class="chapter-title">Глава 7. Преступления против свободы</h2>
+            
+            <div class="article">
+                <h3 class="article-title">Ст. 7.1 (Похищение человека)</h3>
+                <div class="defense-strategy">
+                    <div class="strategy-step">Проверять добровольность перемещения</div>
+                    <div class="strategy-step">Требовать доказательства угроз/насилия</div>
+                    <div class="strategy-step">Устанавливать временной промежуток удержания</div>
+                    
+                    <div class="arguments">
+                        <div class="argument">"Перемещение осуществлялось по согласию"</div>
+                        <div class="argument">"Нет доказательств ограничения свободы"</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="chapter-card">
+            <h2 class="chapter-title">Глава 8. Половые преступления</h2>
+            
+            <div class="article">
+                <h3 class="article-title">Ст. 8.1 (Изнасилование)</h3>
+                <div class="defense-strategy">
+                    <div class="strategy-step">Требовать медицинское освидетельствование</div>
+                    <div class="strategy-step">Проверять наличие активного сопротивления</div>
+                    <div class="strategy-step">Искать противоречия в показаниях потерпевшего</div>
+                    
+                    <div class="arguments">
+                        <div class="argument">"Отношения были полностью добровольными"</div>
+                        <div class="argument">"Имеются доказательства предварительного согласия"</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="chapter-card">
+            <h2 class="chapter-title">Глава 9. Преступления против конституционных прав</h2>
+            
+            <div class="article">
+                <h3 class="article-title">Ст. 9.2 (Незаконное проникновение в жилище)</h3>
+                <div class="defense-strategy">
+                    <div class="strategy-step">Проверять наличие судебного ордера</div>
+                    <div class="strategy-step">Устанавливать факт принудительного проникновения</div>
+                    <div class="strategy-step">Искать доказательства разрешения на вход</div>
+                    
+                    <div class="arguments">
+                        <div class="argument">"Клиент имел законное право находиться в помещении"</div>
+                        <div class="argument">"Дверь была открыта, проникновение не требовало взлома"</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="chapter-card">
+            <h2 class="chapter-title">Глава 10. Преступления против собственности</h2>
+            
+            <div class="article">
+                <h3 class="article-title">Ст. 10.4 (Разбой)</h3>
+                <div class="defense-strategy">
+                    <div class="strategy-step">Оспаривать факт применения насилия</div>
+                    <div class="strategy-step">Проверять идентификацию похищенного имущества</div>
+                    <div class="strategy-step">Устанавливать отсутствие угроз жизни</div>
+                    
+                    <div class="arguments">
+                        <div class="argument">"Действия не содержали признаков насилия, опасного для жизни"</div>
+                        <div class="argument">"Имущество было добровольно передано клиенту"</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="chapter-card">
+            <h2 class="chapter-title">Глава 11. Экономические преступления</h2>
+            
+            <div class="article">
+                <h3 class="article-title">Ст. 11.4 (Уклонение от налогов)</h3>
+                <div class="defense-strategy">
+                    <div class="strategy-step">Проверять правильность налоговых расчетов</div>
+                    <div class="strategy-step">Искать технические ошибки в отчетности</div>
+                    <div class="strategy-step">Устанавливать отсутствие корыстного умысла</div>
+                    
+                    <div class="arguments">
+                        <div class="argument">"Неуплата произошла по причине бухгалтерской ошибки"</div>
+                        <div class="argument">"Клиент предпринял меры для добровольного погашения задолженности"</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="chapter-card">
+            <h2 class="chapter-title">Глава 12. Преступления против общественной безопасности</h2>
+            
+            <div class="article">
+                <h3 class="article-title">Ст. 12.8 (Незаконное хранение оружия)</h3>
+                <div class="defense-strategy">
+                    <div class="strategy-step">Требовать протокол изъятия с указанием свидетелей</div>
+                    <div class="strategy-step">Проверять законность проведения обыска</div>
+                    <div class="strategy-step">Устанавливать принадлежность оружия</div>
+                    
+                    <div class="arguments">
+                        <div class="argument">"Оружие не принадлежит клиенту и было подброшено"</div>
+                        <div class="argument">"Клиент не знал о наличии оружия в помещении"</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="article">
+                <h3 class="article-title">Ст. 12.9 (Незаконное хранение взрывчатых веществ)</h3>
+                <div class="defense-strategy">
+                    <div class="strategy-step">Оспаривать результаты экспертизы веществ</div>
+                    <div class="strategy-step">Проверять условия хранения и упаковки</div>
+                    <div class="strategy-step">Устанавливать цель хранения</div>
+                    
+                    <div class="arguments">
+                        <div class="argument">"Вещества не являются взрывчатыми по своему составу"</div>
+                        <div class="argument">"Клиент хранил вещества в производственных целях"</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="chapter-card">
+            <h2 class="chapter-title">Глава 13. Преступления против здоровья населения</h2>
+            
+            <div class="article">
+                <h3 class="article-title">Ст. 13.2 (Незаконный оборот наркотиков)</h3>
+                <div class="defense-strategy">
+                    <div class="strategy-step">Требовать проведение химической экспертизы</div>
+                    <div class="strategy-step">Проверять точность взвешивания изъятого</div>
+                    <div class="strategy-step">Устанавливать принадлежность наркотиков</div>
+                    
+                    <div class="arguments">
+                        <div class="argument">"Вещества не содержат запрещенных компонентов"</div>
+                        <div class="argument">"Количество не превышает значительный размер"</div>
+                        <div class="argument">"Наркотики принадлежат третьим лицам"</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="chapter-card">
+            <h2 class="chapter-title">Глава 14. Преступления против государственной власти</h2>
+            
+            <div class="article">
+                <h3 class="article-title">Ст. 14.2 (Организация мятежа)</h3>
+                <div class="defense-strategy">
+                    <div class="strategy-step">Оспаривать организационную роль клиента</div>
+                    <div class="strategy-step">Проверять доказательства насильственных действий</div>
+                    <div class="strategy-step">Устанавливать характер высказываний</div>
+                    
+                    <div class="arguments">
+                        <div class="argument">"Клиент не призывал к насильственным действиям"</div>
+                        <div class="argument">"Высказывания носили характер свободного выражения мнения"</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="chapter-card">
+            <h2 class="chapter-title">Глава 15. Должностные преступления</h2>
+            
+            <div class="article">
+                <h3 class="article-title">Ст. 15.4 (Получение взятки)</h3>
+                <div class="defense-strategy">
+                    <div class="strategy-step">Проверять факт передачи денежных средств</div>
+                    <div class="strategy-step">Искать признаки провокации взятки</div>
+                    <div class="strategy-step">Устанавливать характер взаимоотношений</div>
+                    
+                    <div class="arguments">
+                        <div class="argument">"Деньги передавались в качестве возврата долга"</div>
+                        <div class="argument">"Отсутствует связь между передачей денег и служебными действиями"</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="chapter-card">
+            <h2 class="chapter-title">Глава 16. Преступления против правосудия</h2>
+            
+            <div class="article">
+                <h3 class="article-title">Ст. 16.10 (Дача ложных показаний)</h3>
+                <div class="defense-strategy">
+                    <div class="strategy-step">Устанавливать добросовестное заблуждение</div>
+                    <div class="strategy-step">Искать процессуальные нарушения при допросе</div>
+                    <div class="strategy-step">Проверять последовательность показаний</div>
+                    
+                    <div class="arguments">
+                        <div class="argument">"Клиент давал показания по памяти, которая могла быть неточной"</div>
+                        <div class="argument">"Отсутствует умысел на введение в заблуждение"</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="chapter-card">
+            <h2 class="chapter-title">Глава 17. Преступления против порядка управления</h2>
+            
+            <div class="article">
+                <h3 class="article-title">Ст. 17.1 (Нападение на сотрудника правоохранительных органов)</h3>
+                <div class="defense-strategy">
+                    <div class="strategy-step">Проверять статус сотрудника на момент инцидента</div>
+                    <div class="strategy-step">Искать признаки необходимой обороны</div>
+                    <div class="strategy-step">Устанавливать факт превышения должностных полномочий</div>
+                    
+                    <div class="arguments">
+                        <div class="argument">"Действия сотрудника носили противоправный характер"</div>
+                        <div class="argument">"Клиент не знал о служебном статусе потерпевшего"</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="chapter-card">
+            <h2 class="chapter-title">Глава 18. Воинские преступления</h2>
+            
+            <div class="article">
+                <h3 class="article-title">Ст. 18.3 (Дезертирство)</h3>
+                <div class="defense-strategy">
+                    <div class="strategy-step">Проверять факт официального увольнения</div>
+                    <div class="strategy-step">Устанавливать уважительные причины отсутствия</div>
+                    <div class="strategy-step">Искать нарушения в процедуре призыва</div>
+                    
+                    <div class="arguments">
+                        <div class="argument">"Клиент не получал официального приказа о явке"</div>
+                        <div class="argument">"Отсутствие было вызвано состоянием здоровья"</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="chapter-card">
+            <h2 class="chapter-title">Универсальные методы защиты</h2>
+            <div class="defense-strategy">
+                <div class="strategy-step">Фиксировать процессуальные нарушения (отсутствие понятых, неправильное оформление протоколов)</div>
+                <div class="strategy-step">Оспаривать доказательственную базу (недостаток вещественных доказательств, противоречивые показания)</div>
+                <div class="strategy-step">Ходатайствовать о переквалификации на менее тяжкие составы</div>
+                <div class="strategy-step">Указывать на смягчающие обстоятельства (первая судимость, возмещение ущерба)</div>
+                <div class="strategy-step">Требовать исключения доказательств, полученных с нарушением закона</div>
+                
+                <div class="arguments">
+                    <div class="argument">"Доказательства были получены с нарушением процессуальных норм"</div>
+                    <div class="argument">"Клиент активно способствовал раскрытию преступления"</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>© 2023 Коллегия адвокатов Сан-Андреас</p>
+            <p>Все материалы защищены законом об адвокатской тайне</p>
+        </div>
+    </footer>
+</body>
+</html>
